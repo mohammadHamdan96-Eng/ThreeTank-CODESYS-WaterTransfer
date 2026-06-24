@@ -126,7 +126,11 @@ levels based on valve and pump feedback states, then clamps all levels between
 
 A short demo of the running simulation (auto start → filling → transfers → fault/reset):
 
-**Demo video:** ADD_VIDEO_LINK_HERE
+**Demo video:** 
+
+https://github.com/user-attachments/assets/1f342805-5170-41db-9a4f-bd6626171fb8
+
+
 
 ## Note
 
