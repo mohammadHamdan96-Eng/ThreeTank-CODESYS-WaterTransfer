@@ -1,4 +1,4 @@
-[README_FIXED.md](https://github.com/user-attachments/files/29299687/README_FIXED.md)
+[README_FLAT.md](https://github.com/user-attachments/files/29299727/README_FLAT.md)
 # Three-Tank Water Transfer System — CODESYS PLC/HMI V1 Simulation
 
 **Status:** Functional V1 portfolio project
@@ -12,7 +12,7 @@ water-transfer process. The project demonstrates step-based sequence control,
 pump and valve permissives, simulated device feedback, alarm/fault handling,
 reset behavior, manual device control, and an HMI overview.
 
-![CODESYS HMI Overview](ThreeTank_CODESYS_Portfolio/assets/screenshots/01_hmi_overview.png)
+![CODESYS HMI Overview](assets/screenshots/01_hmi_overview.png)
 
 ## Project Objective
 
@@ -80,7 +80,7 @@ flowchart TD
 The CODESYS project file is included at:
 
 ```
-ThreeTank_CODESYS_Portfolio/codesys/ThreeTank_WaterTransfer_CODESYS_V1.project
+codesys/ThreeTank_WaterTransfer_CODESYS_V1.project
 ```
 
 ## HMI / Visualization
@@ -100,27 +100,27 @@ Structured Text simulates the tank levels. The logic increases or decreases tank
 levels based on valve and pump feedback states, then clamps all levels between
 0% and 100%.
 
-![Structured Text Simulation](ThreeTank_CODESYS_Portfolio/assets/screenshots/08_structured_text_simulation.png)
+![Structured Text Simulation](assets/screenshots/08_structured_text_simulation.png)
 
 ## Screenshots
 
 **Tank 1 — sequence logic**
-![Tank 1 sequence logic](ThreeTank_CODESYS_Portfolio/assets/screenshots/02_tank1_sequence_logic.png)
+![Tank 1 sequence logic](assets/screenshots/02_tank1_sequence_logic.png)
 
 **Tank 1 — valve, feedback, and alarm logic**
-![Tank 1 valve logic](ThreeTank_CODESYS_Portfolio/assets/screenshots/03_tank1_valve_feedback_alarm_logic.png)
+![Tank 1 valve logic](assets/screenshots/03_tank1_valve_feedback_alarm_logic.png)
 
 **Tank 2 — transfer permissive logic**
-![Tank 2 transfer logic](ThreeTank_CODESYS_Portfolio/assets/screenshots/04_tank2_transfer_permissive_logic.png)
+![Tank 2 transfer logic](assets/screenshots/04_tank2_transfer_permissive_logic.png)
 
 **Tank 2 — valve/pump feedback logic**
-![Tank 2 feedback logic](ThreeTank_CODESYS_Portfolio/assets/screenshots/05_tank2_valve_pump_feedback_logic.png)
+![Tank 2 feedback logic](assets/screenshots/05_tank2_valve_pump_feedback_logic.png)
 
 **Tank 3 — transfer permissive logic**
-![Tank 3 transfer logic](ThreeTank_CODESYS_Portfolio/assets/screenshots/06_tank3_transfer_permissive_logic.png)
+![Tank 3 transfer logic](assets/screenshots/06_tank3_transfer_permissive_logic.png)
 
 **Tank 3 — pump/fault logic**
-![Tank 3 pump fault logic](ThreeTank_CODESYS_Portfolio/assets/screenshots/07_tank3_pump_fault_logic.png)
+![Tank 3 pump fault logic](assets/screenshots/07_tank3_pump_fault_logic.png)
 
 ## Demo Video
 
